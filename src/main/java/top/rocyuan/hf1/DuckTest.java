@@ -13,6 +13,7 @@ public class DuckTest {
         mallardDuck.display();
         mallardDuck.performFly();
         mallardDuck.performQuack();
+        System.out.println("运行过程中改变行为");
         mallardDuck.setFlyBehavior(new FlyWithWings());
         mallardDuck.performFly();
 
@@ -22,6 +23,7 @@ public class DuckTest {
         redHeadDuck.display();
         redHeadDuck.performFly();
         redHeadDuck.performQuack();
+        System.out.println("运行过程中改变行为");
         redHeadDuck.setQuackBehavior(new Quack());
         redHeadDuck.performQuack();
 
@@ -31,6 +33,7 @@ public class DuckTest {
         rubberDuck.display();
         rubberDuck.performFly();
         rubberDuck.performQuack();
+        System.out.println("运行过程中改变行为");
         rubberDuck.setQuackBehavior(new Squeak());
         rubberDuck.performQuack();
     }
